@@ -30,12 +30,14 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'foundation-rails', '5.4.5.0'
 gem 'haml-rails'
 gem 'simple_form'
 
 gem 'trailblazer-rails'
 gem 'trailblazer-loader'
 gem 'reform', '~> 2.1.0'
+gem 'thin'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -57,3 +59,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "foundation-icons-sass-rails"
