@@ -37,6 +37,13 @@ gem 'simple_form'
 gem 'trailblazer-rails'
 gem 'trailblazer-loader'
 gem 'reform', '~> 2.1.0'
+
+gem 'trailblazer-cells'
+gem 'cells-hamlit'
+gem 'cells-rails'
+gem 'rails-timeago'
+
+
 gem 'thin'
 
 group :development, :test do
